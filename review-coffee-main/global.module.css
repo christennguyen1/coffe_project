@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Volkhov", serif;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  height: 38px;
+  padding: 10px;
+  border: 1px solid #ecedec;
+  border-radius: 5px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 120px;
+  height: 38px;
+  padding: 10px;
+  color: #f2f6ff;
+  background: #4482ff;
+  border: 1px solid #ecedec;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:disabled {
+  background: #f2f2f2;
+}
+
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  background: url("./dataImage/image-login-page.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.register-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  background: url("./dataImage/image-register-page.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.form-login,
+.form-register {
+  max-width: 500px;
+  background: #ffffff;
+}
+
+.form-header h3 {
+  padding: 70px 50px 4px 50px;
+  font-size: 38px;
+  font-weight: 400;
+  color: #788194;
+  text-align: center;
+}
+
+.form-header .subscription {
+  padding-bottom: 70px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #788194;
+  text-align: center;
+}
+
+.form-content {
+  padding: 0px 50px;
+}
+
+.form-content > * {
+  margin-bottom: 10px;
+  width: 340px;
+}
+
+.name-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-wrapper > * {
+  width: calc(50% - 5px);
+}
+
+.form-footer {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-error {
+  color: #ff0000;
+  line-height: 25px;
+}
+
+.message-success {
+  color: #00ff00;
+  line-height: 25px;
+}

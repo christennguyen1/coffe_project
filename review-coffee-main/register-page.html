@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./global.module.css" />
+  </head>
+  <body>
+    <section class="register-container">
+      <form class="form-register" id="form-register">
+        <div class="form-header">
+          <h3>B e m y c o f f e e</h3>
+          <div class="subscription">Register Page</div>
+        </div>
+        <div class="form-content">
+          <div class="name-wrapper">
+            <div class="input-wrapper">
+              <input type="text" name="firstname" placeholder="First name" />
+              <div id="firstname-error" class="message-error"></div>
+            </div>
+            <div class="input-wrapper">
+              <input type="text" name="lastname" placeholder="Last name" />
+              <div id="lastname-error" class="message-error"></div>
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <input type="email" name="email" placeholder="Email" />
+            <div id="email-error" class="message-error"></div>
+          </div>
+          <div class="input-wrapper">
+            <input type="password" name="password" placeholder="Password" />
+            <div id="password-error" class="message-error"></div>
+          </div>
+          <div class="input-wrapper">
+            <input
+              type="password"
+              name="confirmPassword"
+              placeholder="Confirm password"
+            />
+            <div id="confirmpassword-error" class="message-error"></div>
+          </div>
+          <div id="register-error" class="message-error"></div>
+          <div id="register-success" class="message-success"></div>
+        </div>
+        <div class="form-footer">
+          <a id="register-link" href="./login-page.html"
+            >Already have an account? Login</a
+          >
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    </section>
+  </body>
+
+  <script src="./main.js"></script>
+</html>

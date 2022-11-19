@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./global.module.css" />
+  </head>
+  <body>
+    <section class="login-container">
+      <form class="form-login" id="form-login">
+        <div class="form-header">
+          <h3>B e m y c o f f e e</h3>
+          <div class="subscription">Login Page</div>
+        </div>
+        <div class="form-content">
+          <div class="input-wrapper">
+            <input type="text" name="email" placeholder="Email" />
+            <div id="email-error" class="message-error"></div>
+          </div>
+          <div class="input-wrapper">
+            <input type="password" name="password" placeholder="Password" />
+            <div id="password-error" class="message-error"></div>
+          </div>
+          <div id="login-error" class="message-error"></div>
+          <div id="login-success" class="message-success"></div>
+        </div>
+        <div class="form-footer">
+          <a href="./register-page.html">Not yet have an account? Register</a>
+          <button type="submit">Login</button>
+        </div>
+      </form>
+    </section>
+  </body>
+
+  <script src="./main.js"></script>
+</html>
